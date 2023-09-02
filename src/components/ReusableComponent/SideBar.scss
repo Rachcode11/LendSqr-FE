@@ -1,0 +1,69 @@
+.sub_sidebar{
+  width: 13%;
+  height: 100vh;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.04);
+  padding: 2%;
+
+  .switch_dropdown{
+    display: flex;
+
+
+  }
+  .briefcase{
+padding-right: 11px;
+  }
+  h3{
+    margin: 0 ;
+    width: 100%;
+    height: 19px;
+    top: 139px;
+    left: 56px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .dashboard{
+    display: flex;
+    margin-top: 4rem;
+  }
+  .dash{
+    width: 84px;
+    height: 19px;
+    top: 210px;
+    left: 56px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(33, 63, 125, 1);
+
+
+
+  }
+  .home{
+    padding-right: 11px;
+  }
+  .custom {
+    width: 75px;
+    height: 14px;
+    top: 270px;
+    left: 30px;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(84, 95, 125, 1);
+    margin-top: 2rem;
+
+
+
+
+  }
+}
