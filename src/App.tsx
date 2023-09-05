@@ -1,8 +1,8 @@
 import React from 'react';
 import Login from './components/Auth/Login';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import DashboardTopNav from "./components/ReusableComponent/DashboardTopNav";
-import SideBar from "../src/components/ReusableComponent/SideBar";
+import MiddleSection from "./components/Dashboard/MiddleSection";
+
 
 function App() {
 
@@ -11,9 +11,8 @@ function App() {
         <div className="App">
             <BrowserRouter>
                 <Routes>
-                    <Route path="*" element={<Login/>}/>
-                    <Route path="/dashboard" element={<DashboardTopNav/>}/>
-                    <Route path="/second-dashboard" element={<SideBar/>}/>
+                    <Route path="/" element={<Login/>}/>
+                    <Route path="/dashboard" element={<MiddleSection/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

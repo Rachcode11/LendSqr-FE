@@ -8,6 +8,7 @@ import { NavLink } from 'react-router-dom';
 
 interface DashboardTopNavProps {
     children?: ReactNode;
+    page?: string;
 }
 
 const DashboardTopNav: React.FC<DashboardTopNavProps> = ({ children }) => {
