@@ -1,3 +1,10 @@
+Details to Login 
+Email: lendsqr@email.com
+Password: lendsqr123
+
+
+
+
 I started this task with the misconception that it was merely a question-and-answer assessment. I spent the entire Tuesday to Thursday evening reading through the materials, thinking I would be able to complete the test that same evening. However, I realized quite late that it was actually a coding task, and by then, I had already spent too much time on Reading it.
 
 
