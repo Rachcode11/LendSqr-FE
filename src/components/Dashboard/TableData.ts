@@ -16,7 +16,7 @@ export const TableData = [{
     "EMAIL" : "debby2@irorun.com",
     "PHONENUMBER" :"08078903721",
     "DATEJOINED" : "May 15 2020 10:00 AM",
-    "STATUS" : "pending",
+    "STATUS" : "Pending",
      
 },
 {

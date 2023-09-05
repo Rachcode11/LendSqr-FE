@@ -87,7 +87,7 @@ const MiddleSectionTable = () => {
                       case 'Pending':
                         cellClassName += ' pending';
                         break;
-                      case 'Blacklisted':
+                      case 'BlackListed':
                         cellClassName += ' blacklisted';
                         break;
                       case 'Active':

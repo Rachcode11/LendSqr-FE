@@ -4,6 +4,9 @@ import Logo from '../../asset/Group.svg';
 import Hero from '../../asset/pablo-sign-in 1 (1).svg';
 import { Button } from '@mui/material';
 import {useNavigate, NavLink} from "react-router-dom";
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 
@@ -36,18 +39,28 @@ function Login() {
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
         console.log('Login submitted:', data);
-
+      
         if (data.email === 'lendsqr@email.com' && data.password === 'lendsqr123') {
-            console.log('Login successful');
-            navigate("/dashboard")
+          console.log('Login successful');
+          navigate("/dashboard");
         } else {
-            console.log('Login failed');
-            setIsLoginFailed(true);
+          console.log('Login failed');
+          setIsLoginFailed(true);
+          toast.error("Wrong login details. Please try again.", {
+            position: "top-right",
+            autoClose: 5000, // 5 seconds
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+          });
         }
-    };
+      };
+      
 
     return (
         <div className="main">
+             <ToastContainer />
             <div className="left">
                 <div className="logo">
                     <NavLink to="/">

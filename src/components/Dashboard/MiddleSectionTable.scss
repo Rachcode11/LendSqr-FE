@@ -43,22 +43,23 @@ color: rgba(84, 95, 125, 1);
     gap: 2rem;
   }
   .inactive {
-    color: red;
-    background-color: #ffcccc; 
+    color: rgba(84, 95, 125, 1);
+    background-color:rgb(157, 165, 186) ; 
+    border-radius: 2px;
   }
   
   .pending {
-    color: gray;
-    background-color: #f0f0f0; 
+    color: rgba(233, 178, 0, 1);
+    background-color: rgb(244, 223, 154); 
   }
   
   .blacklisted {
-    color: black;
-    background-color: #000000; 
+    color: rgba(228,3, 59, 1);
+    background-color: #ffcccc; 
   }
   
   .active {
-    color: green;
+    color: rgba(57, 205, 98, 1);
     background-color: #ccffcc; 
 
 }
